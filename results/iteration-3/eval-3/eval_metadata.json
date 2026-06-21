@@ -1,0 +1,5 @@
+{
+  "eval_id": 3,
+  "eval_name": "ripcord-explain",
+  "prompt": "why would you use useReducer instead of all these separate useState calls here? explain the tradeoffs"
+}

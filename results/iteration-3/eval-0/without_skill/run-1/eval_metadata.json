@@ -1,0 +1,5 @@
+{
+  "eval_id": 0,
+  "eval_name": "vague-cleanup-redirect",
+  "prompt": "honestly this checkout component is a bit of a mess, can you clean it up and make it more maintainable?"
+}

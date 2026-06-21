@@ -1,0 +1,5 @@
+{
+  "eval_id": 4,
+  "eval_name": "architecture-recommendation",
+  "prompt": "we're hitting scaling limits on the orders service \u2014 single Postgres, ~5k writes/sec at peak and climbing. should we shard, add read replicas, or move to event sourcing? what would you do?"
+}

@@ -1,0 +1,28 @@
+{
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 3,
+    "failed": 0,
+    "total": 3
+  },
+  "expectations": [
+    {
+      "text": "Concise-ish (<=200 words) \u2014 not an abstract essay",
+      "passed": true,
+      "evidence": "31 words"
+    },
+    {
+      "text": "Pulls toward concrete (part/which/file)",
+      "passed": true,
+      "evidence": "concrete-leaning"
+    },
+    {
+      "text": "Offers a concrete next step",
+      "passed": true,
+      "evidence": "next step"
+    }
+  ],
+  "execution_metrics": {
+    "output_chars": 199
+  }
+}

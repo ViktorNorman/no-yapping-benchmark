@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 4,
+    "failed": 0,
+    "total": 4
+  },
+  "expectations": [
+    {
+      "text": "Leads with code block",
+      "passed": true,
+      "evidence": "opens ```"
+    },
+    {
+      "text": "Implements 300ms debounce",
+      "passed": true,
+      "evidence": "debounce+300"
+    },
+    {
+      "text": "Concise (<=120 words)",
+      "passed": true,
+      "evidence": "78 words"
+    },
+    {
+      "text": "No explanatory postamble/filler",
+      "passed": true,
+      "evidence": "clean"
+    }
+  ],
+  "execution_metrics": {
+    "output_chars": 606
+  }
+}

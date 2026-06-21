@@ -1,0 +1,5 @@
+{
+  "eval_id": 1,
+  "eval_name": "multi-concept-menu",
+  "prompt": "can you refactor auth.js \u2014 fix up the token refresh, add rate limiting on login, move the session store to redis, and improve the error messages?"
+}

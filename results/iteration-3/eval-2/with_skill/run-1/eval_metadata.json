@@ -1,0 +1,5 @@
+{
+  "eval_id": 2,
+  "eval_name": "concrete-debounce",
+  "prompt": "add a 300ms debounce to the search input handler in SearchBar.jsx so we're not firing a request on every keystroke"
+}

@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "pass_rate": 0.4,
+    "passed": 2,
+    "failed": 3,
+    "total": 5
+  },
+  "expectations": [
+    {
+      "text": "Concise redirect (<=60 words)",
+      "passed": false,
+      "evidence": "465 words"
+    },
+    {
+      "text": "Names the file/component",
+      "passed": true,
+      "evidence": "named"
+    },
+    {
+      "text": "Proposes concrete change (useReducer/consolidate)",
+      "passed": true,
+      "evidence": "concrete"
+    },
+    {
+      "text": "Offers y/redirect, no full code dump",
+      "passed": false,
+      "evidence": "asks, no dump"
+    },
+    {
+      "text": "No filler phrases",
+      "passed": false,
+      "evidence": "['want me to']"
+    }
+  ],
+  "execution_metrics": {
+    "output_chars": 3754
+  }
+}

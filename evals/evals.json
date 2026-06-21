@@ -1,0 +1,54 @@
+{
+  "skill_name": "no-yapping",
+  "evals": [
+    {
+      "id": 0,
+      "name": "vague-cleanup-redirect",
+      "prompt": "honestly this checkout component is a bit of a mess, can you clean it up and make it more maintainable?",
+      "expected_output": "One short line naming the concrete target in checkout.jsx and a concrete change (e.g. useReducer), phrased so 'yes' is enough. No verbose refactor essay.",
+      "files": ["inputs/checkout.jsx"]
+    },
+    {
+      "id": 1,
+      "name": "multi-concept-menu",
+      "prompt": "can you refactor auth.js — fix up the token refresh, add rate limiting on login, move the session store to redis, and improve the error messages?",
+      "expected_output": "A terse numbered menu of the 4 changes, asking which to start, parking the rest. No planning essay, no implementing all four.",
+      "files": ["inputs/auth.js"]
+    },
+    {
+      "id": 2,
+      "name": "concrete-debounce",
+      "prompt": "add a 300ms debounce to the search input handler in SearchBar.jsx so we're not firing a request on every keystroke",
+      "expected_output": "Code-first: a diff/snippet adding the debounce plus import, with little or no prose. No preamble.",
+      "files": ["inputs/SearchBar.jsx"]
+    },
+    {
+      "id": 3,
+      "name": "ripcord-explain",
+      "prompt": "why would you use useReducer instead of all these separate useState calls here? explain the tradeoffs",
+      "expected_output": "A full, clear explanation of the tradeoffs (the skill steps aside when 'why/explain' is asked). NOT a terse refusal.",
+      "files": ["inputs/checkout.jsx"]
+    },
+    {
+      "id": 4,
+      "name": "architecture-recommendation",
+      "prompt": "we're hitting scaling limits on the orders service — single Postgres, around 5k writes/sec at peak and climbing. should we shard the db, add read replicas, or move to event sourcing? what would you do?",
+      "expected_output": "Engages with a real recommendation (architecture discussion is allowed). Lays out the options concisely and picks one with a short reason. NOT a terse refusal, but NOT a 700-word essay either — concrete levers, clear pick.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "name": "vague-complex-sloppy",
+      "prompt": "this dashboard.js file is a complete disaster honestly, can you sort it out?",
+      "expected_output": "Does NOT dump a full rewrite. Names the worst concrete problems as a short list/menu (callback nesting, var, no error handling, XSS via innerHTML, mixed fetch+DOM, global state) and asks which to tackle first, or proposes one concrete first slice. Concise.",
+      "files": ["inputs/dashboard.js"]
+    },
+    {
+      "id": 6,
+      "name": "architecture-vibe-redirect",
+      "prompt": "i feel like our whole data layer is poorly architected and it's slowing us down. thoughts?",
+      "expected_output": "Borderline: 'thoughts?' invites discussion, but the ask is vague. Ideal: engages briefly but pulls toward something concrete — asks which part (ORM, query patterns, caching, N+1) or to point at a file — rather than a long abstract essay.",
+      "files": []
+    }
+  ]
+}

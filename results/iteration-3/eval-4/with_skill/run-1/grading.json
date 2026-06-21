@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 4,
+    "failed": 0,
+    "total": 4
+  },
+  "expectations": [
+    {
+      "text": "Engages \u2014 substantial (>=120 words), not a refusal",
+      "passed": true,
+      "evidence": "500 words"
+    },
+    {
+      "text": "Addresses all 3 options (shard/replica/event sourcing)",
+      "passed": true,
+      "evidence": "all 3"
+    },
+    {
+      "text": "Gives a clear recommendation",
+      "passed": true,
+      "evidence": "recommends"
+    },
+    {
+      "text": "Names concrete levers (citus/shard key/wal/tune/iops)",
+      "passed": true,
+      "evidence": "levers"
+    }
+  ],
+  "execution_metrics": {
+    "output_chars": 3041
+  }
+}

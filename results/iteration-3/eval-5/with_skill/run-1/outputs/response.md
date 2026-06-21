@@ -1,0 +1,1 @@
+Bigger issue first: `dashboard.js` builds `html` from `data[i].name`/`amount` and drops it into `innerHTML` (lines 16, 21) — that's an XSS hole. Escape it / use `textContent`, then collapse the nested XHR into one `fetch` chain? (y / point me elsewhere)

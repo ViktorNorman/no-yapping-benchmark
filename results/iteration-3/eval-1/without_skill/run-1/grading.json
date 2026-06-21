@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "pass_rate": 0.4,
+    "passed": 2,
+    "failed": 3,
+    "total": 5
+  },
+  "expectations": [
+    {
+      "text": "Concise (<=80 words)",
+      "passed": false,
+      "evidence": "510 words"
+    },
+    {
+      "text": "Numbered menu present",
+      "passed": false,
+      "evidence": "menu"
+    },
+    {
+      "text": "Asks which / parks rest",
+      "passed": true,
+      "evidence": "asks+parks"
+    },
+    {
+      "text": "No code dump (not all-at-once)",
+      "passed": true,
+      "evidence": "no dump"
+    },
+    {
+      "text": "Not an interrogation (<=2 '?')",
+      "passed": false,
+      "evidence": "11 q"
+    }
+  ],
+  "execution_metrics": {
+    "output_chars": 3051
+  }
+}

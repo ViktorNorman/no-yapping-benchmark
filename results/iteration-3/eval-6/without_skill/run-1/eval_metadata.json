@@ -1,0 +1,5 @@
+{
+  "eval_id": 6,
+  "eval_name": "architecture-vibe-redirect",
+  "prompt": "i feel like our whole data layer is poorly architected and it's slowing us down. thoughts?"
+}

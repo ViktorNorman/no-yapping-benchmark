@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 5,
+    "failed": 0,
+    "total": 5
+  },
+  "expectations": [
+    {
+      "text": "Concise (<=120 words) \u2014 no full rewrite",
+      "passed": true,
+      "evidence": "40 words"
+    },
+    {
+      "text": "Names a concrete target in dashboard.js",
+      "passed": true,
+      "evidence": "target"
+    },
+    {
+      "text": "No giant rewrite dump",
+      "passed": true,
+      "evidence": "no dump"
+    },
+    {
+      "text": "Offers a choice / asks which first",
+      "passed": true,
+      "evidence": "choice"
+    },
+    {
+      "text": "Flags a concrete risk (XSS/empty-state/error-handling)",
+      "passed": true,
+      "evidence": "flags bug"
+    }
+  ],
+  "execution_metrics": {
+    "output_chars": 254
+  }
+}

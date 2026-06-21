@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "pass_rate": 1.0,
+    "passed": 4,
+    "failed": 0,
+    "total": 4
+  },
+  "expectations": [
+    {
+      "text": "Substantial explanation (>=150 words) \u2014 ripcord honored",
+      "passed": true,
+      "evidence": "492 words"
+    },
+    {
+      "text": "Contrasts useReducer vs useState",
+      "passed": true,
+      "evidence": "both"
+    },
+    {
+      "text": "Covers downside AND upside",
+      "passed": true,
+      "evidence": "two-sided"
+    },
+    {
+      "text": "Gives a verdict",
+      "passed": true,
+      "evidence": "verdict"
+    }
+  ],
+  "execution_metrics": {
+    "output_chars": 3010
+  }
+}
